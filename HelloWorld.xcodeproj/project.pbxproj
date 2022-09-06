@@ -13,6 +13,12 @@
 		150B629728BC5BC900400034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150B629528BC5BC900400034 /* Main.storyboard */; };
 		150B629928BC5BCC00400034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150B629828BC5BCC00400034 /* Assets.xcassets */; };
 		150B629C28BC5BCC00400034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150B629A28BC5BCC00400034 /* LaunchScreen.storyboard */; };
+		150B62A528BCD85500400034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150B629328BC5BC900400034 /* ViewController.swift */; };
+		150B62A628BCD85500400034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150B628F28BC5BC900400034 /* AppDelegate.swift */; };
+		150B62A728BCD85500400034 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150B629128BC5BC900400034 /* SceneDelegate.swift */; };
+		150B62AA28BCD85500400034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150B629A28BC5BCC00400034 /* LaunchScreen.storyboard */; };
+		150B62AB28BCD85500400034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150B629828BC5BCC00400034 /* Assets.xcassets */; };
+		150B62AC28BCD85500400034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150B629528BC5BC900400034 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,19 @@
 		150B629828BC5BCC00400034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150B629B28BC5BCC00400034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		150B629D28BC5BCC00400034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150B62B028BCD85500400034 /* HelloWorld copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorld copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		150B62B128BCD85500400034 /* HelloWorld copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HelloWorld copy-Info.plist"; path = "/Users/YKT/FUJI-Corparation Dropbox/iphoneアプリ開発/HelloWorld/HelloWorld copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		150B628928BC5BC900400034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150B62A828BCD85500400034 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,8 +55,10 @@
 		150B628328BC5BC900400034 = {
 			isa = PBXGroup;
 			children = (
+				150B629A28BC5BCC00400034 /* LaunchScreen.storyboard */,
 				150B628E28BC5BC900400034 /* HelloWorld */,
 				150B628D28BC5BC900400034 /* Products */,
+				150B62B128BCD85500400034 /* HelloWorld copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				150B628C28BC5BC900400034 /* HelloWorld.app */,
+				150B62B028BCD85500400034 /* HelloWorld copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,7 +79,6 @@
 				150B629328BC5BC900400034 /* ViewController.swift */,
 				150B629528BC5BC900400034 /* Main.storyboard */,
 				150B629828BC5BCC00400034 /* Assets.xcassets */,
-				150B629A28BC5BCC00400034 /* LaunchScreen.storyboard */,
 				150B629D28BC5BCC00400034 /* Info.plist */,
 			);
 			path = HelloWorld;
@@ -85,6 +102,23 @@
 			name = HelloWorld;
 			productName = HelloWorld;
 			productReference = 150B628C28BC5BC900400034 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150B62A328BCD85500400034 /* HelloWorld copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150B62AD28BCD85500400034 /* Build configuration list for PBXNativeTarget "HelloWorld copy" */;
+			buildPhases = (
+				150B62A428BCD85500400034 /* Sources */,
+				150B62A828BCD85500400034 /* Frameworks */,
+				150B62A928BCD85500400034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloWorld copy";
+			productName = HelloWorld;
+			productReference = 150B62B028BCD85500400034 /* HelloWorld copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,6 +150,7 @@
 			projectRoot = "";
 			targets = (
 				150B628B28BC5BC900400034 /* HelloWorld */,
+				150B62A328BCD85500400034 /* HelloWorld copy */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +166,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		150B62A928BCD85500400034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150B62AA28BCD85500400034 /* LaunchScreen.storyboard in Resources */,
+				150B62AB28BCD85500400034 /* Assets.xcassets in Resources */,
+				150B62AC28BCD85500400034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +186,16 @@
 				150B629428BC5BC900400034 /* ViewController.swift in Sources */,
 				150B629028BC5BC900400034 /* AppDelegate.swift in Sources */,
 				150B629228BC5BC900400034 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150B62A428BCD85500400034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150B62A528BCD85500400034 /* ViewController.swift in Sources */,
+				150B62A628BCD85500400034 /* AppDelegate.swift in Sources */,
+				150B62A728BCD85500400034 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +344,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MS3YAPGNZZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -316,8 +372,65 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MS3YAPGNZZ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		150B62AE28BCD85500400034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MS3YAPGNZZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HelloWorld copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.taro.kirameki.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150B62AF28BCD85500400034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MS3YAPGNZZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HelloWorld copy-Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -353,6 +466,15 @@
 			buildConfigurations = (
 				150B62A128BC5BCC00400034 /* Debug */,
 				150B62A228BC5BCC00400034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150B62AD28BCD85500400034 /* Build configuration list for PBXNativeTarget "HelloWorld copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150B62AE28BCD85500400034 /* Debug */,
+				150B62AF28BCD85500400034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
